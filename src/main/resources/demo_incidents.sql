@@ -1,0 +1,19 @@
+CREATE TABLE incidents (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    priority TEXT NOT NULL,
+    team TEXT NOT NULL,
+    resolution_time INTEGER NOT NULL,
+    sla_threshold INTEGER NOT NULL,
+    status TEXT NOT NULL
+);
+
+INSERT INTO incidents (id, title, priority, team, resolution_time, sla_threshold, status) VALUES
+(1, 'Login failure in customer portal', 'High', 'Team Alpha', 130, 120, 'Closed'),
+(2, 'Slow response in loan calculator', 'Medium', 'Team Beta', 90, 100, 'Closed'),
+(3, 'Payment gateway timeout', 'Critical', 'Team Alpha', 250, 180, 'Escalated'),
+(4, 'Broken link in app UI', 'Low', 'Team Gamma', 60, 90, 'Closed'),
+(5, 'Internal dashboard 500 error', 'High', 'Team Beta', 110, 90, 'Closed'),
+(6, 'Missing translations (DE)', 'Medium', 'Team Gamma', 45, 60, 'Closed'),
+(7, 'Oracle DB connection lost', 'Critical', 'Team Delta', 300, 200, 'Closed'),
+(8, 'Delayed email notifications', 'Low', 'Team Alpha', 80, 100, 'Closed');
