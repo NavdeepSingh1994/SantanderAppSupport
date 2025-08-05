@@ -18,7 +18,7 @@
   Rolle:
   Faktisch Projektleitung – inklusive Schulung, Koordination, Wissenstransfer
 
-# Warum die Stele als IT Specialist bei Santander Bank?<br/>
+# Warum die Stelle als IT Specialist bei Santander Bank?<br/>
 
 Ich habe beim 1st Level angefangen und arbeite aktuell im 3rd Level Bereich, dazu habe ich Major Incidents behandelt<br/>
 während meiner Senior Incident Manager Position, ich denke diese Position erlaubt mir etwas zu bewegen wenn es Schwachstellen im Prozess gibt.
